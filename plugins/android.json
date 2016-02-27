@@ -9,6 +9,21 @@
     "installed_plugins": {
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.meicj.corgular"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.meicj.corgular"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.meicj.corgular"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.meicj.corgular"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.meicj.corgular"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "com.meicj.corgular"
         }
     },
     "dependent_plugins": {}
