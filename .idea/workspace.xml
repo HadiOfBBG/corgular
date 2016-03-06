@@ -1,31 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f443cce8-4b5b-48b8-8a62-82de296c0f75" name="Default" comment="add cordova-sqlite-storage plugin &amp; corgular-modules-core integration">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/corgular-modules-core/dist/core.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/corgular-modules-core/dist/core.min.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/style.css" afterPath="" />
+    <list default="true" id="f443cce8-4b5b-48b8-8a62-82de296c0f75" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-sqlite-storage/spec/www/lib/jasmine-2.2.0/jasmine_favicon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/ionic.app.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/ionic.app.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/corgular-modules-core/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/corgular-modules-core/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/corgular-modules-core/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/corgular-modules-core/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/corgular-modules-core/dist/core.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/corgular-modules-core/dist/core.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/corgular-modules-core/dist/exceptionHandler-raw.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/corgular-modules-core/dist/exceptionHandler.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/corgular-modules-core/gulpfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/corgular-modules-core/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/corgular-modules-core/src/core.module.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/corgular-modules-core/src/debugHelper.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/corgular-modules-core/src/device.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/corgular-modules-core/src/localDB.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/plugins/cordova-sqlite-storage/www/SQLitePlugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/platform_www/plugins/cordova-sqlite-storage/www/SQLitePlugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/src/io/sqlc/SQLiteAndroidDatabase.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/src/io/sqlc/SQLitePlugin.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Corgular/Plugins/cordova-sqlite-storage/SQLitePlugin.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/Corgular/Plugins/cordova-sqlite-storage/SQLitePlugin.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/frameworks.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/platform_www/plugins/cordova-sqlite-storage/www/SQLitePlugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/corgular-modules-core/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/corgular-modules-core/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/corgular-modules-core/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/corgular-modules-core/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/corgular-modules-core/dist/core.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/corgular-modules-core/dist/core.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/corgular-modules-core/gulpfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/corgular-modules-core/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/corgular-modules-core/src/core.module.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/corgular-modules-core/src/debugHelper.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/corgular-modules-core/src/device.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/corgular-modules-core/src/exceptionHandler.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/www/lib/corgular-modules-core/src/localDB.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/www/plugins/cordova-sqlite-storage/www/SQLitePlugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-sqlite-storage/AUTHORS.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-sqlite-storage/CHANGES.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-sqlite-storage/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-sqlite-storage/LICENSE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-sqlite-storage/Lawnchair-adapter/Lawnchair-sqlitePlugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-sqlite-storage/Lawnchair-adapter/test-www/Lawnchair-sqlitePlugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-sqlite-storage/Lawnchair-adapter/test-www/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-sqlite-storage/Lawnchair-adapter/test-www/lawnchair-spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-sqlite-storage/Lawnchair-adapter/test-www/lib/json2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-sqlite-storage/Lawnchair-adapter/test-www/lib/lawnchair.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-sqlite-storage/Lawnchair-adapter/test-www/lib/qunit.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-sqlite-storage/Lawnchair-adapter/test-www/lib/qunit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-sqlite-storage/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-sqlite-storage/SQLitePlugin.coffee.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-sqlite-storage/bin/test.ps1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-sqlite-storage/bin/test.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-sqlite-storage/circle.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-sqlite-storage/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-sqlite-storage/plugin.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-sqlite-storage/spec/.cordova/config.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-sqlite-storage/spec/config.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-sqlite-storage/spec/platforms/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-sqlite-storage/spec/plugins/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-sqlite-storage/spec/www/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-sqlite-storage/spec/www/lib/jasmine-2.2.0/boot.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-sqlite-storage/spec/www/lib/jasmine-2.2.0/console.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-sqlite-storage/spec/www/lib/jasmine-2.2.0/jasmine-html.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-sqlite-storage/spec/www/lib/jasmine-2.2.0/jasmine.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-sqlite-storage/spec/www/lib/jasmine-2.2.0/jasmine.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-sqlite-storage/spec/www/spec/basic-misc-test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-sqlite-storage/spec/www/spec/basic-sql-tx-test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-sqlite-storage/spec/www/spec/browser-check-startup.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-sqlite-storage/spec/www/spec/db-open-close-delete-test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-sqlite-storage/spec/www/spec/db-simultaneous-tx-access-test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-sqlite-storage/spec/www/spec/db-tx-string-test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-sqlite-storage/spec/www/spec/db-tx-value-bindings-test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-sqlite-storage/spec/www/spec/ext-tx-blob-test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-sqlite-storage/spec/www/spec/misc-tx-legacy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-sqlite-storage/spec/www/spec/self-test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-sqlite-storage/spec/www/spec/sql-batch-test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-sqlite-storage/spec/www/spec/tx-semantics-test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-sqlite-storage/src/android/io/sqlc/SQLiteAndroidDatabase.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-sqlite-storage/src/android/io/sqlc/SQLitePlugin.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-sqlite-storage/src/ios/SQLitePlugin.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-sqlite-storage/src/ios/SQLitePlugin.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-sqlite-storage/tests/plugin.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-sqlite-storage/tests/tests.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/cordova-sqlite-storage/www/SQLitePlugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/corgular-modules-core/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/corgular-modules-core/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/corgular-modules-core/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/corgular-modules-core/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/corgular-modules-core/gulpfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/corgular-modules-core/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/corgular-modules-core/src/core.module.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/corgular-modules-core/src/debugHelper.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/corgular-modules-core/src/device.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/corgular-modules-core/src/exceptionHandler.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/corgular-modules-core/src/localDB.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/android.json" afterPath="$PROJECT_DIR$/platforms/android/android.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/cordova_plugins.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/cordova_plugins.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/index.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/app.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/platform_www/cordova_plugins.js" afterPath="$PROJECT_DIR$/platforms/android/platform_www/cordova_plugins.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/xml/config.xml" afterPath="$PROJECT_DIR$/platforms/android/res/xml/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/Corgular.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/platforms/ios/Corgular.xcodeproj/project.pbxproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/Corgular/config.xml" afterPath="$PROJECT_DIR$/platforms/ios/Corgular/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/ios.json" afterPath="$PROJECT_DIR$/platforms/ios/ios.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/platform_www/cordova_plugins.js" afterPath="$PROJECT_DIR$/platforms/ios/platform_www/cordova_plugins.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/cordova_plugins.js" afterPath="$PROJECT_DIR$/platforms/ios/www/cordova_plugins.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/index.html" afterPath="$PROJECT_DIR$/platforms/ios/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/js/app.js" afterPath="$PROJECT_DIR$/platforms/ios/www/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/android.json" afterPath="$PROJECT_DIR$/plugins/android.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/fetch.json" afterPath="$PROJECT_DIR$/plugins/fetch.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/ios.json" afterPath="$PROJECT_DIR$/plugins/ios.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/app.js" afterPath="$PROJECT_DIR$/www/js/app.js" />
     </list>
     <ignored path="corgular.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -358,7 +433,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456570260651</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add cordova-sqlite-storage plugin &amp; corgular-modules-core integration">
+      <created>1457282986005</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1457282986005</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -367,6 +448,7 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23104435" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -374,7 +456,6 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42553192" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -401,7 +482,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="add ionic" />
-    <option name="LAST_COMMIT_MESSAGE" value="add ionic" />
+    <MESSAGE value="add cordova-sqlite-storage plugin &amp; corgular-modules-core integration" />
+    <option name="LAST_COMMIT_MESSAGE" value="add cordova-sqlite-storage plugin &amp; corgular-modules-core integration" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

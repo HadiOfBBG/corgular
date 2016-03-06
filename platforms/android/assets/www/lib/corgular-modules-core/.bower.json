@@ -1,0 +1,40 @@
+{
+  "name": "corgular-modules-core",
+  "description": "A sets of angular core modules for mobile devices(a few modules depend on Cordova plugins)",
+  "main": "./dist/core.js",
+  "authors": [
+    "meicj"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "corgular",
+    "modules",
+    "core",
+    "angular",
+    "cordova",
+    "ionic",
+    "sqlite",
+    "database",
+    "business"
+  ],
+  "homepage": "https://github.com/meicj/corgular-modules-core",
+  "moduleType": [],
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "966999bcbf",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "966999bcbf14c7ffe0a9beb725c3f25c40f3bfd2"
+  },
+  "_source": "git://github.com/meicj/corgular-modules-core.git",
+  "_target": "*",
+  "_originalSource": "corgular-modules-core",
+  "_direct": true
+}
