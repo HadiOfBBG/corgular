@@ -22,6 +22,8 @@
 		7982A2271518446C87C9AD5A /* CDVStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B4406394B6B84D478C6CC385 /* CDVStatusBar.m */; };
 		C1604C3E07764432BEAFE110 /* IonicKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 6599B26D336F45BE9666BFFB /* IonicKeyboard.m */; };
 		AFE3B5515D764A91AF42CDC2 /* UIWebViewExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EED7FA4F840404CBB0F8F39 /* UIWebViewExtension.m */; };
+		E01D8156B4A641499F87F432 /* SQLitePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D67218C7754E2689170D40 /* SQLitePlugin.m */; };
+		7DB30AF5BB06437E85CC3C32 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 295D433AEA7C4F0294CF829D /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +77,9 @@
 		7EED7FA4F840404CBB0F8F39 /* UIWebViewExtension.m */ = {isa = PBXFileReference; name = "UIWebViewExtension.m"; path = "ionic-plugin-keyboard/UIWebViewExtension.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
 		42B4DD591DBF4F0BA769AFFF /* IonicKeyboard.h */ = {isa = PBXFileReference; name = "IonicKeyboard.h"; path = "ionic-plugin-keyboard/IonicKeyboard.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 		8FDAEC4FD1894E4F885FD7FC /* UIWebViewExtension.h */ = {isa = PBXFileReference; name = "UIWebViewExtension.h"; path = "ionic-plugin-keyboard/UIWebViewExtension.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		F0D67218C7754E2689170D40 /* SQLitePlugin.m */ = {isa = PBXFileReference; name = "SQLitePlugin.m"; path = "cordova-sqlite-storage/SQLitePlugin.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		1354B6D9CFD845C6AF2688C7 /* SQLitePlugin.h */ = {isa = PBXFileReference; name = "SQLitePlugin.h"; path = "cordova-sqlite-storage/SQLitePlugin.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		295D433AEA7C4F0294CF829D /* libsqlite3.dylib */ = {isa = PBXFileReference; name = "libsqlite3.dylib"; path = "usr/lib/libsqlite3.dylib"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = compiled.mach-o.dylib; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +88,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
+				7DB30AF5BB06437E85CC3C32 /* libsqlite3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +158,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				295D433AEA7C4F0294CF829D /* libsqlite3.dylib */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -191,6 +198,8 @@
 				7EED7FA4F840404CBB0F8F39 /* UIWebViewExtension.m */,
 				42B4DD591DBF4F0BA769AFFF /* IonicKeyboard.h */,
 				8FDAEC4FD1894E4F885FD7FC /* UIWebViewExtension.h */,
+				F0D67218C7754E2689170D40 /* SQLitePlugin.m */,
+				1354B6D9CFD845C6AF2688C7 /* SQLitePlugin.h */,
 			);
 			name = Plugins;
 			path = "Corgular/Plugins";
@@ -312,6 +321,7 @@
 				7982A2271518446C87C9AD5A /* CDVStatusBar.m in Sources */,
 				C1604C3E07764432BEAFE110 /* IonicKeyboard.m in Sources */,
 				AFE3B5515D764A91AF42CDC2 /* UIWebViewExtension.m in Sources */,
+				E01D8156B4A641499F87F432 /* SQLitePlugin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
