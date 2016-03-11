@@ -29,8 +29,8 @@
         * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
             * Enable inline JS: add 'unsafe-inline' to default-src
     -->
-    <meta http-equiv="Content-Security-Policy"
-          content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+    <!--<meta http-equiv="Content-Security-Policy"-->
+    <!--content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">-->
     <meta name="format-detection" content="telephone=no">
     <meta name="msapplication-tap-highlight" content="no">
     <meta name="viewport"
@@ -44,9 +44,13 @@
     <!-- cordova script (this will be a 404 during development) -->
     <script src="cordova.js"></script>
 
-    <!-- your app's js -->
+    <!-- app's js -->
+    <script src="lib/corgular-modules-core/dist/core.js"></script>
     <script src="js/app.js"></script>
-    <script src="lib/corgular-modules-core/dist/core.min.js"></script>
+    <!-- corgular-modules-core's sample js -->
+    <script src="js/core.sample/exceptionHandle.config.js"></script>
+    <script src="js/core.sample/localDB.config.js"></script>
+    <script src="js/core.sample/logger.js"></script>
 
     <title>Corgular</title>
 </head>

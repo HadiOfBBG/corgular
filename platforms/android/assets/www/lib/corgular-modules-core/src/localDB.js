@@ -89,7 +89,7 @@
                             defer.resolve(_instance[dbName]);
                         } else {
                             _config.getDBProvider().openDatabase(
-                                dbName,
+                                { name: dbName },
                                 function (openedDb) {
                                     _instance[dbName] = openedDb;
                                     defer.resolve(openedDb);

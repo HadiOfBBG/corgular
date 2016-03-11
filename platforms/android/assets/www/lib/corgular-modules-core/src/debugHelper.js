@@ -13,7 +13,7 @@
      * API of `debugHelper`
      * @ngInject
      */
-    function debugHelper($document) {
+    function debugHelper() {
 
         return {
             /**
@@ -21,7 +21,7 @@
              * @returns {*}
              */
             get: function () {
-                var injector = angular.element($document).injector();
+                var injector = angular.element(document.body).injector();
                 return injector.get.apply(injector.get, arguments);
             }
         };
