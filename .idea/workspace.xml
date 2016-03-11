@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f443cce8-4b5b-48b8-8a62-82de296c0f75" name="Default" comment="add simple readme">
+    <list default="true" id="f443cce8-4b5b-48b8-8a62-82de296c0f75" name="Default" comment="add simple quick start">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -106,8 +106,8 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.6713147">
-                <caret line="54" column="3" selection-start-line="54" selection-start-column="3" selection-end-line="54" selection-end-column="3" />
+              <first_editor vertical-scroll-proportion="0.64143425">
+                <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -477,7 +477,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457699434104</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add simple quick start">
+      <created>1457703192420</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1457703192420</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -522,7 +528,8 @@
     <MESSAGE value="add ionic" />
     <MESSAGE value="add cordova-sqlite-storage plugin &amp; corgular-modules-core integration" />
     <MESSAGE value="update corgular-modules-core &amp; add sample js" />
-    <option name="LAST_COMMIT_MESSAGE" value="update corgular-modules-core &amp; add sample js" />
+    <MESSAGE value="add simple quick start" />
+    <option name="LAST_COMMIT_MESSAGE" value="add simple quick start" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -866,8 +873,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.6713147">
-            <caret line="54" column="3" selection-start-line="54" selection-start-column="3" selection-end-line="54" selection-end-column="3" />
+          <first_editor vertical-scroll-proportion="0.64143425">
+            <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
             <folding />
           </first_editor>
           <second_editor />
